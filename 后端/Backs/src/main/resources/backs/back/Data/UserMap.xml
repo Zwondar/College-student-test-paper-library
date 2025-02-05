@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="backs.back.Data.UserMap">
+    <insert id="dataupload">
+        insert into study (school, college, discipline, grade,name, time,url,UpDataTime) VALUE
+        <foreach collection="datas" item="data" separator="," open="(" close=",now())">
+            #{data}
+        </foreach>
+
+    </insert>
+</mapper>

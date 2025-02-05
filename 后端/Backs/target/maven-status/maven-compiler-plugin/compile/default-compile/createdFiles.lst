@@ -1,0 +1,14 @@
+backs\back\disposition\JwtUtils.class
+backs\back\Entity\Sel.class
+backs\back\Accept\accept.class
+backs\back\Entity\User.class
+backs\back\disposition\LoginFilter.class
+backs\back\disposition\Result.class
+backs\back\disposition\WebConfig.class
+backs\back\Entity\Study.class
+backs\back\Sever\UserSever.class
+backs\back\Data\UserMap.class
+backs\back\BacksApplication.class
+backs\back\Sever\UsersSever.class
+backs\back\disposition\AliOSSUtils.class
+backs\back\BacksApplication$1.class
